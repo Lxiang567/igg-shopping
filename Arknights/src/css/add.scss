@@ -1,0 +1,117 @@
+
+.box{
+    min-width: 1200px;
+    height: 50px;
+    background: #f8f8f8; 
+    .title{
+        height: 50px;
+        margin: 0 100px;
+        a:hover {
+            color: #9ACD32;
+        }
+        a{
+            line-height: 50px;
+            font-size: 15px;
+        }
+    }
+}
+.big_box{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background: #f8f8f8;
+    .b_l{
+        width: 60%;
+        height: 600px;
+        background: url(../images/sp1.jpg)no-repeat center center;
+        background-size: 100% 100%;
+        float: left;
+    }
+    .b_r{
+        width: 40%;
+        height: 600px;
+        float: right;
+        .wrap{
+            width: 80%;
+            height: 500px;
+            margin: 50px auto;
+            .rmb{
+                font-size: 24px;
+                font-weight: 800;
+                color: #9ACD32;
+            }
+            .x{
+                font-size: 16px;
+                color: orange;
+                height: 24px;
+                margin-bottom: 20px;
+            }
+            .addx{
+                line-height: 24px;
+                p{
+                    font-size: 13px;
+                }
+            }
+            .sl{
+                width: 180px;
+                height: 40px;
+                float: left;
+                .reduce{
+                    width: 40px;
+                    height: 40px;
+                    font-size: 30px;
+                    line-height: 40px;
+                    text-align: center;
+                    float: left;
+                }
+                input{
+                    width: 100px;
+                    height: 40px;
+                    border: 1px solid #bfbfbf;
+                    float: left;
+                    text-align: center;
+                }
+                .increase{
+                    width: 38px;
+                    height: 40px;
+                    font-size: 30px;
+                    line-height: 40px;
+                    text-align: center;
+                    float: left; 
+                }
+            }
+            .shopping{
+                width: 100%;
+                height: 50px;
+                background: #9ACD32;
+                font-size: 16px;
+                float: left;
+                line-height: 50px;
+                color: #f8f8f8;
+                text-align: center;
+                margin-top: 50px;
+            }
+            .w_b{
+                width: 100%;
+                height: 80px;
+                float: left;
+                margin-top: 30px;           
+                ul li{
+                    float: left;
+                    list-style: none;
+                    font-size:12px;
+                    line-height: 80px; 
+                    margin-right: 10px;
+                    i{
+                        font-size: 40px;
+                        color: #bfbfbf;
+                    }
+                    :hover i{
+                        color: #9ACD32;
+                    }
+                }
+                
+            }
+        }
+    }
+}
